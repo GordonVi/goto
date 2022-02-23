@@ -38,6 +38,6 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 - You can make money off it
 - You don't need to cite my page
 - This can be used in any business without paying anything
-- This can be used by anyone for any reson without charge
+- This can be used by anyone for any reason without charge
 
 https://github.com/GordonVi/goto
