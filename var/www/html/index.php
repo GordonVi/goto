@@ -1,10 +1,11 @@
 <?php 
 
-$goto = gethostname(); # The computer's hostname, set with "--hostname=" in" docker run."
+$goto = gethostname(); # The computer's hostname, set with "--hostname=" in "docker run."
 
 $link['apple'] = "https://www.apple.com/";
 $link['google'] = "https://www.google.com/";
 $link['lenovo'] = "https://www.lenovo.com/";
+$link['author'] = "http://www.gordonvirasawmi.com/";
 
 # -----------------
 
@@ -29,7 +30,8 @@ if (isset($link[strtolower($url)])) {
         <ul>
 <?php
             foreach ($link as $key => $value) {
-                echo "            <li>$goto/<a href=\"$value\">$key</a></li>";
+                // $arr[3] will be updated with each value from $arr...
+                echo "            <li>$goto/<a href=\"$value\">$key</a></li>\n";
             }
             ?>
         </ul>
