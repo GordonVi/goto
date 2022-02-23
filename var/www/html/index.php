@@ -29,7 +29,6 @@ if (isset($link[strtolower($url)])) {
         <ul>
 <?php
             foreach ($link as $key => $value) {
-                // $arr[3] will be updated with each value from $arr...
                 echo "            <li>$goto/<a href=\"$value\">$key</a></li>";
             }
             ?>
