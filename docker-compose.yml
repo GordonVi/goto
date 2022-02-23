@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+
+  webhost:
+    build:
+        context: .
+        dockerfile: webhost.dockerfile
+    hostname: goto
+    volumes:
+      - ./var/www/html:/var/www/html/
+    ports:
+      # - 80:80
+      - 10.0.63.201:80:80
+
