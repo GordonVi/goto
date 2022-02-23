@@ -9,6 +9,6 @@ services:
     volumes:
       - ./var/www/html:/var/www/html/
     ports:
-      # - 80:80
-      - 10.0.63.201:80:80
+      - 80:80
+      # - 10.0.63.201:80:80
 
