@@ -6,7 +6,10 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 #### Use
 - The user types goto/keyword into their web browser
 - This forwards them to a URL
-- This is like a smart link shortener. You con add links to powerpoints and such, Corporations have been doing this for years
+- This is like a smart link shortener. You can add links to powerpoints and such.
+- This resource can be kept in the intranet. 
+- You set it to keywords that make sense for you.
+- Corporations have been doing this for years.
 
 #### Features
 
