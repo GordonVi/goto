@@ -6,6 +6,7 @@ $link['apple'] = "https://www.apple.com/";
 $link['google'] = "https://www.google.com/";
 $link['lenovo'] = "https://www.lenovo.com/";
 $link['author'] = "http://www.gordonvirasawmi.com/";
+$link['github'] = "https://github.com/GordonVi/goto";
 
 # -----------------
 
