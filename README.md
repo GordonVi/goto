@@ -20,9 +20,9 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 - Install Docker Desktop or your prefered docker version
 - Get a static IP and bind it to your NIC. (you can bind more than 1 IP to a NIC)
 - Input that IP in the last line of "docker-compose.yml"
-- I recommend naming your instance and hostname GOTO
+- I recommend naming your instance and hostname GOTO. A simple, short name used by many.
 - Edit line 8 in "docker-compose.yml" to match your intended hostname.
-- Set your DNS to point to the static IP.
+- Set your DNS to point to the static IP as the hostname.
 - Edit the file at ./var/www/html/index.php
 - Double click up.bat
 
