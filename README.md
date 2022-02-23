@@ -39,5 +39,7 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 - You don't need to cite my page
 - This can be used in any business without paying anything
 - This can be used by anyone for any reason without charge
+- This software is "AS-IS." There is no warrenty or support.
+- This was written and tested in 5 hours. The concepts are novice, but too simple to be a unique product. However, the functionality is important.
 
 https://github.com/GordonVi/goto
