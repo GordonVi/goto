@@ -12,6 +12,11 @@ $link['github'] = "https://github.com/GordonVi/goto";
 
 $url=$_SERVER['REQUEST_URI']; 
 $url=substr($url, 1);
+if  (strlen($url)>1) {
+    if ($url[strlen($url) - 1] == "/") {
+        $url=substr($url, 0, -1);
+        }
+    }
 
 if (isset($link[strtolower($url)])) {
     header("Location: $link[$url]");
