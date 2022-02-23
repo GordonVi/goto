@@ -26,7 +26,7 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 - Input that IP in the last line of "docker-compose.yml"
 - I recommend naming your instance and hostname GOTO. A simple, short name used by many.
 - Edit line 8 in "docker-compose.yml" to match your intended hostname.
-- Set your DNS to point to the static IP as the hostname.
+- Set your DNS to point to the static IP as the hostname. [(You will need your System Administrator to do a DNS entry in the Windows Domain Controller)](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/add-a-host--a--resource-record-to-corporate-dns-for-a-federation-server)
 - Edit the file at ./var/www/html/index.php
 - Double click up.bat
 
