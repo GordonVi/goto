@@ -27,6 +27,11 @@ if (isset($link[strtolower($url)])) {
 ?>
 
 <html>
+
+	<head>
+		<link rel="stylesheet" href="dark_theme_ZachSaucier.css">
+	</head>
+	
 	<body>
 		<h1><?php echo $goto; ?> redirector</h1>
 		<hr>
