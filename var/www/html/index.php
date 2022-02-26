@@ -2,6 +2,8 @@
 
 $goto = gethostname(); # The computer's hostname, set with "--hostname=" in "docker run."
 
+# all keywords must be lowercase
+
 $link['apple'] = "https://www.apple.com/";
 $link['google'] = "https://www.google.com/";
 $link['lenovo'] = "https://www.lenovo.com/";
@@ -10,7 +12,8 @@ $link['github'] = "https://github.com/GordonVi/goto";
 
 # -----------------
 
-$url=$_SERVER['REQUEST_URI']; 
+$url=$_SERVER['REQUEST_URI'];
+%url=strtolower($url);
 $url=substr($url, 1);
 if  (strlen($url)>1) {
     if ($url[strlen($url) - 1] == "/") {
