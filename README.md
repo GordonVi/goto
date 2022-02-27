@@ -4,7 +4,7 @@
 
 The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword service I see in corporate places.
 
-![](http://virasawmi.com/gordon/images/goto.gif)
+![.](http://virasawmi.com/gordon/images/goto.gif)
 
 #### Use
 - The user types goto/keyword into their web browser
