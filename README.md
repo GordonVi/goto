@@ -2,7 +2,7 @@
 ##### Made with: Docker-compose, PHP
 ##### Version: 1.0
 
-The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword service I see in corporate places.
+The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword service I see in corporate places. Some people call it a link shortener. 
 
 ![Demo](http://virasawmi.com/gordon/images/goto.gif)
 
