@@ -7,8 +7,8 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 ![Demo](http://virasawmi.com/gordon/images/goto.gif)
 
 #### Use
-- The user types goto/keyword into their web browser
-- This forwards them to a URL
+- The user types goto/keyword into their web browser.
+- This forwards them to a URL.
 - This is like a smart link shortener. You can add links to powerpoints and such.
 - This resource can be kept in the intranet. 
 - You set it to keywords that make sense for you.
@@ -17,13 +17,14 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 #### Features
 
 - Pure PHP. No other HTTP Daemon. This uses the PHP built in server.
-- Uses the Official PHP Docker Image
-- Uses a simple index.php to do parsing and routing
-- Easy to understand and edit
+- Uses the Official PHP Docker Image.
+- Uses a simple index.php to do parsing and routing. Tolerant to major PHP version upgrades.
+- Easy to understand and edit.
+
 
 #### Installation
 
-- Install Docker Desktop or your prefered docker version
+- Install Docker Desktop or your prefered docker version.
 - Get a static IP and bind it to your NIC. (you can bind more than 1 IP to a NIC)
 - Input that IP in the last line of "docker-compose.yml"
 - I recommend naming your instance and hostname GOTO. A simple, short name used by many.
@@ -36,13 +37,13 @@ The GOTO Link Redirector is something I wrote to immitate the GOTO/keyword servi
 
 #### License:  
   
-- This is open source
-- You can copy the code and use it any way
-- You can make money off it
-- You don't need to cite my page
-- This can be used in any business without paying anything
-- This can be used by anyone for any reason without charge
-- This software is "AS-IS." There is no warrenty or support.
+- This is open source.
+- You can copy the code and use it any way.
+- You can make money off it.
+- You don't need to cite my page.
+- This can be used in any business without paying anything.
+- This can be used by anyone for any reason without charge.
+- This software is "AS-IS." There is no warranty or support.
 - This was written and tested in 5 hours. The concepts are novice, but too simple to be a unique product. However, the functionality is important.
 
 https://github.com/GordonVi/goto
