@@ -27,9 +27,7 @@ if (isset($link[strtolower($url)])) {
 }
 
 
-?>
-
-<html>
+?><html>
 
 	<head>
 		<link rel="stylesheet" href="dark_theme_ZachSaucier.css">
