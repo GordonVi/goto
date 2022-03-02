@@ -7,8 +7,8 @@ $goto = gethostname(); # The computer's hostname, set with "--hostname=" in "doc
 $link['apple'] = "https://www.apple.com/";
 $link['google'] = "https://www.google.com/";
 $link['lenovo'] = "https://www.lenovo.com/";
-$link['author'] = "http://www.gordonvirasawmi.com/";
-$link['github'] = "https://github.com/GordonVi/goto";
+$link['author'] = "http://www.gordonvirasawmi.com/";  # You can delete this
+$link['github'] = "https://github.com/GordonVi/goto"; # You can delete this
 
 # -----------------
 
