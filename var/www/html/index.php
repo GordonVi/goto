@@ -21,7 +21,7 @@ if  (strlen($url)>1) {
         }
     }
 
-if (isset($link[strtolower($url)])) {
+if (isset($link[$url])) {
     header("Location: $link[$url]");
     exit;
 }
